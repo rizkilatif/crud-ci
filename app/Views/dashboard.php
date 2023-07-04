@@ -8,7 +8,6 @@
 </head>
 <body>
   <div style="font-family: poppins;" class=" container-fluid bg-primary vh-100 border">
-    <?php var_dump($users) ?>
     <h1>Wellcome to Dashboard!</h1>
     <h3>Users</h3>
     <table class="table">
