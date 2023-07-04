@@ -12,18 +12,18 @@
 <div style="font-family: poppins;" class=" container-fluid d-flex justify-content-center align-items-center bg-primary vh-100 border">
     <div class="d-flex flex-column p-4 w-25 bg-light rounded-3 shadow-lg text-primary fw-semibold">
         <img src="logo.png" alt="discoverz" class="w-50 align-self-center m-3">
-        <form>
+        <form action="" method="post">
         <div class="mb-3">
             <label for="name" class="form-label">Nama</label>
-            <input type="text" class="form-control" id="name" placeholder="Masukkan nama lengkap">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Masukkan nama lengkap">
           </div>
           <div class="mb-3">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="Masukkan email">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan email">
           </div>
           <div class="mb-3">
             <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" placeholder="Masukkan password">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Masukkan password">
           </div>
           <div class="mb-3">
             <label for="confirm-password" class="form-label">Konfirmasi Password</label>
