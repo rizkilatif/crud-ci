@@ -30,6 +30,10 @@ class Page extends BaseController {
     $users = new UserModel();
     $data['users'] = $users->findAll();
 
+    if(!$data['users']) {
+      throw PageNotFoundException::forPageNotFound('Data user tidak ditemukan!');
+    }
+
     echo view("dashboard", $data);
   }
 }
