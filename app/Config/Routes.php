@@ -32,6 +32,7 @@ $routes->setAutoRoute(false);
 $routes->get('/', 'Home::index');
 $routes->add('/register', 'Page::register');
 $routes->get('/dashboard', 'Page::dashboard');
+$routes->get('/landing', 'Page::landing');
 
 /*
  * --------------------------------------------------------------------
