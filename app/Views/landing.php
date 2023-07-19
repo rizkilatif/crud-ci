@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <title>Registrasi DiscoverZ</title>
+    <title>DiscoverZ</title>
 </head>
 
+
+<body>
+
 <div>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="#">Navbar scroll</a> -->
+    <nav class="navbar navbar-expand-lg bg-light px-4 shadow-lg" style="position: sticky; top: 0; z-index: 9;" >
+        <div class="container-fluid d-flex gap-5">
             <div>
                 <img src="logo.png" alt="" class="w-5" style="width:150px;">
             </div>
@@ -23,27 +25,16 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Link
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a class="nav-link" href="#">Artikel</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link disabled">Link</a>
+                    <a class="nav-link">Post Artikel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">About</a>
                 </li>
             </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <button class="btn btn-primary" >Get started</button>
             </div>
         </div>
     </nav>
@@ -57,11 +48,15 @@
             <button  type="submit" class="btn btn-warning px-10 fw-bold" style="margin-top:20px; width:300px; height:50px; font-size:15pt; color:#187AF2;  ">Get Started</button>
         </div>
         <div class="w-50" style="color:aliceblue;">
-            <img src="hp.png" style="width: 45vw;" />
+            <img src="hp.png" style="width: 40vw;" />
         </div>
     </div>
 
-    <div class="row d-flex justify-content-center m-2 gap-2">
+    
+    <div class="row d-flex justify-content-center m-5 gap-2 " >
+        <div style="width:4 00px; height:50px;">
+            <h2 style="font-size:20pt; text-align:center;">TRENDING ON DISCOVERZ</h2>
+        </div>
         <div class="row gap-4">
             <div class="col card border-0 d-flex flex-row  shadow-sm">
                 <div class="col-3 bg-"  >
@@ -97,7 +92,7 @@
                 </div>
                 <div class="col-9 bg-" >
                     <h1 style="font-size:12pt; margin-top:10px; ">A change of typeface: Microsoft’s new default font has arrived</h1>
-                    <p>ntroducing Aptos, our modern successor to Calibri</p>
+                    <p>Introducing Aptos, our modern successor to Calibri</p>
                 </div>
             </div><div class="col card border-0 d-flex flex-row  shadow-sm">
                 <div class="col-3 bg-"  >
@@ -105,7 +100,7 @@
                 </div>
                 <div class="col-9 bg-" >
                     <h1 style="font-size:12pt; margin-top:10px;">A change of typeface: Microsoft’s new default font has arrived</h1>
-                    <p>ntroducing Aptos, our modern successor to Calibri</p>
+                    <p>Introducing Aptos, our modern successor to Calibri</p>
                 </div>
             </div><div class="col card border-0 d-flex flex-row  shadow-sm">
                 <div class="col-3 bg-"  >
@@ -113,30 +108,99 @@
                 </div>
                 <div class="col-9 bg-" >
                     <h1 style="font-size:12pt; margin-top:10px;">A change of typeface: Microsoft’s new default font has arrived</h1>
-                    <p>ntroducing Aptos, our modern successor to Calibri</p>
+                    <p>Introducing Aptos, our modern successor to Calibri</p>
                 </div>
             </div>
         </div>
     </div>
 
-    
-<div class="d-flex">
-    <div class="bg-danger w-75" style=" height:500px;">
+    <div class="contaier container-fluid row px-5">
+        <div class="col-8">
+            <div class="row shadow-sm my-5">
+                <div class="col-8">
+                    <p>Barack Obama</p>
+                    <h3>Thank You to America’s Librarians for Protecting Our Freedom to Read</h3>
+                    <p>I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.</p>
+                    <div class="d-flex gap-2">
+                        <p class="text-secondary">17 Jul</p>
+                        <p class="text-secondary">5 min read</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="post1.png" alt="" class="h-100 w-100" >
+                </div>
+            </div>
+            
+            <div class="row shadow-sm my-5">
+                <div class="col-8">
+                    <p>Barack Obama</p>
+                    <h3>Thank You to America’s Librarians for Protecting Our Freedom to Read</h3>
+                    <p>I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.</p>
+                    <div class="d-flex gap-2">
+                        <p class="text-secondary">17 Jul</p>
+                        <p class="text-secondary">5 min read</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="post1.png" alt="" class="h-100 w-100" >
+                </div>
+            </div>
+
+            <div class="row shadow-sm my-5">
+                <div class="col-8">
+                    <p>Barack Obama</p>
+                    <h3>Thank You to America’s Librarians for Protecting Our Freedom to Read</h3>
+                    <p>I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.</p>
+                    <div class="d-flex gap-2">
+                        <p class="text-secondary">17 Jul</p>
+                        <p class="text-secondary">5 min read</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="post1.png" alt="" class="h-100 w-100" >
+                </div>
+            </div>
+
+            <div class="row shadow-sm my-5">
+                <div class="col-8">
+                    <p>Barack Obama</p>
+                    <h3>Thank You to America’s Librarians for Protecting Our Freedom to Read</h3>
+                    <p>I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.</p>
+                    <div class="d-flex gap-2">
+                        <p class="text-secondary">17 Jul</p>
+                        <p class="text-secondary">5 min read</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="post1.png" alt="" class="h-100 w-100" >
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4 position-sticky top-0">
+            <p class="fs-4 fw-bold">Discover what matters to you</p>
+            <div class="d-flex flex-wrap gap-2">
+                <span class="rounded-pill bg-warning px-3 py-1" >Programming</span>
+                <span class="rounded-pill bg-warning px-3 py-1" >Data Science</span>
+                <span class="rounded-pill bg-warning px-3 py-1" >Technology</span>
+                <span class="rounded-pill bg-warning px-3 py-1" >Self Improvement</span>
+                <span class="rounded-pill bg-warning px-3 py-1" >Writing</span>
+                <span class="rounded-pill bg-warning px-3 py-1" >Relationships</span>
+                <span class="rounded-pill bg-warning px-3 py-1" >Machine Learning</span>
+                <span class="rounded-pill bg-warning px-3 py-1" >Productivity</span>
+                <span class="rounded-pill bg-warning px-3 py-1" >Politics</span>
+            </div>
+        </div>
     </div>
-    <div class="bg-primary w-25" style=" height:500px;">
+    
     </div>
 </div>
 
-   
+    <div class="bg-primary d-flex justify-content-center align-items-center " style="height:100px; width:auto; color:antiquewhite;">
+
+    <h4 >copyright &copy; 2023 DiscoverZ</h4>
+
     </div>
-</div>
-<body>
-
-
-    
-
-
-    
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>

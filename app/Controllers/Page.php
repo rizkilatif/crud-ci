@@ -36,9 +36,4 @@ class Page extends BaseController {
 
     echo view("dashboard", $data);
   }
-
-  public function landing()
-    {
-        echo view('landing.php');
-    }
 }
