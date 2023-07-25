@@ -7,6 +7,14 @@
     <title>DiscoverZ</title>
 </head>
 
+<style>
+    .bar1:hover{
+        background-color:#FFC107;
+    }
+
+
+
+</style>
 
 <body>
 
@@ -28,10 +36,10 @@
                 <a class="nav-link" href="#">Artikel</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Post Artikel</a>
+                    <a class="nav-link" href="#">Post Artikel</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">About</a>
+                    <a class="nav-link" href="#">About</a>
                 </li>
             </ul>
             <button class="btn btn-primary" >Get started</button>
@@ -53,62 +61,62 @@
     </div>
 
     
-    <div class="row d-flex justify-content-center m-5 gap-2 " >
+    <div class=" ok1  row d-flex justify-content-center m-5 gap-2 " >
         <div style="width:4 00px; height:50px;">
             <h2 style="font-size:20pt; text-align:center;">TRENDING ON DISCOVERZ</h2>
         </div>
-        <div class="row gap-4">
-            <div class="col card border-0 d-flex flex-row  shadow-sm">
+        <div class=" row gap-4">
+            <div class="bar1 col card border-0 d-flex flex-row  shadow-sm">
                 <div class="col-3 bg-"  >
                     <h1 style="font-size:60pt; color:#dededd; margin-left:5px;">01</h1>
                 </div>
                 <div class="col-9 bg-" >
                     <h1 style="font-size:12pt; margin-top:10px;">A change of typeface: Microsoft’s new default font has arrived</h1>
-                    <p>ntroducing Aptos, our modern successor to Calibri</p>
+                    <p>Introducing Aptos, our modern successor to Calibri</p>
                 </div>
             </div>
-            <div class="col card border-0 d-flex flex-row  shadow-sm">
+            <div class="bar1 col card border-0 d-flex flex-row  shadow-sm">
                 <div class="col-3 bg-"  >
                     <h1 style="font-size:60pt; color:#dededd; margin-left:5px;">02</h1>
                 </div>
                 <div class="col-9 bg-" >
-                    <h1 style="font-size:12pt; margin-top:10px;">A change of typeface: Microsoft’s new default font has arrived</h1>
-                    <p>ntroducing Aptos, our modern successor to Calibri</p>
+                    <h1 style="font-size:12pt; margin-top:10px;">Thank You to America’s Librarians for Protecting Our Freedom to Read</h1>
+                    <p>I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.</p>
                 </div>
-            </div><div class="col card border-0 d-flex flex-row  shadow-sm">
+            </div><div class="bar1 col card border-0 d-flex flex-row  shadow-sm">
                 <div class="col-3 bg-"  >
                     <h1 style="font-size:60pt; color:#dededd; margin-left:5px;">03</h1>
                 </div>
                 <div class="col-9 bg-" >
-                    <h1 style="font-size:12pt; margin-top:10px;">A change of typeface: Microsoft’s new default font has arrived</h1>
-                    <p>ntroducing Aptos, our modern successor to Calibri</p>
+                    <h1 style="font-size:12pt; margin-top:10px;">When you watch The Curse, you are watching two children who were abused and exploited daily during production.</h1>
+                    <p>I had a wonderful time at Steel City Comicon this weekend. </p>
                 </div>
             </div>
         </div>
         <div class="row gap-4">
-        <div class="col card border-0 d-flex flex-row  shadow-sm">
+        <div class="bar1 col card border-0 d-flex flex-row  shadow-sm">
                 <div class="col-3 bg-"  >
                     <h1 style="font-size:60pt; color:#dededd; margin-left:5px;">04</h1>
                 </div>
                 <div class="col-9 bg-" >
-                    <h1 style="font-size:12pt; margin-top:10px; ">A change of typeface: Microsoft’s new default font has arrived</h1>
-                    <p>Introducing Aptos, our modern successor to Calibri</p>
+                    <h1 style="font-size:12pt; margin-top:10px; ">Once Bitten</h1>
+                    <p>A no-joke very bad centipede bite…</p>
                 </div>
-            </div><div class="col card border-0 d-flex flex-row  shadow-sm">
+            </div><div class="bar1 col card border-0 d-flex flex-row  shadow-sm">
                 <div class="col-3 bg-"  >
                     <h1 style="font-size:60pt; color:#dededd; margin-left:5px;">05</h1>
                 </div>
                 <div class="col-9 bg-" >
-                    <h1 style="font-size:12pt; margin-top:10px;">A change of typeface: Microsoft’s new default font has arrived</h1>
-                    <p>Introducing Aptos, our modern successor to Calibri</p>
+                    <h1 style="font-size:12pt; margin-top:10px;">Google Bard’s New Visual Feature is a Game Changer</h1>
+                    <p>Chatbots can officially see the world</p>
                 </div>
-            </div><div class="col card border-0 d-flex flex-row  shadow-sm">
+            </div><div class="bar1 col card border-0 d-flex flex-row  shadow-sm">
                 <div class="col-3 bg-"  >
                     <h1 style="font-size:60pt; color:#dededd; margin-left:5px;">06</h1>
                 </div>
                 <div class="col-9 bg-" >
-                    <h1 style="font-size:12pt; margin-top:10px;">A change of typeface: Microsoft’s new default font has arrived</h1>
-                    <p>Introducing Aptos, our modern successor to Calibri</p>
+                    <h1 style="font-size:12pt; margin-top:10px;">Microsoft Just Showed us the Future of ChatGPT with LongNet</h1>
+                    <p>Imagine a chatbot that could ingest the entire Internet at once.</p>
                 </div>
             </div>
         </div>
@@ -133,46 +141,46 @@
             
             <div class="row shadow-sm my-5">
                 <div class="col-8">
-                    <p>Barack Obama</p>
-                    <h3>Thank You to America’s Librarians for Protecting Our Freedom to Read</h3>
-                    <p>I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.</p>
+                    <p>Ignacio de Gregorio</p>
+                    <h3>Microsoft Just Showed us the Future of ChatGPT with LongNet</h3>
+                    <p>Imagine a chatbot that could ingest the entire Internet at once. Well, that’s what Microsoft’s newest architecture, LongNet, may be able to deliver sometime in the close future, while right now it’s already promising 1-billion-token prompts, a human’s lifetime read count, in half a second.</p>
                     <div class="d-flex gap-2">
-                        <p class="text-secondary">17 Jul</p>
-                        <p class="text-secondary">5 min read</p>
+                        <p class="text-secondary">20 Jun</p>
+                        <p class="text-secondary">7 min read</p>
                     </div>
                 </div>
                 <div class="col-4">
-                    <img src="post1.png" alt="" class="h-100 w-100" >
+                    <img src="post2.png" alt="" class="h-100 w-100" >
                 </div>
             </div>
 
             <div class="row shadow-sm my-5">
                 <div class="col-8">
-                    <p>Barack Obama</p>
-                    <h3>Thank You to America’s Librarians for Protecting Our Freedom to Read</h3>
-                    <p>I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.</p>
+                    <p>Danah Boyd</p>
+                    <h3>Dear Alt-Twitter Designers: It’s about the network!</h3>
+                    <p>Last week, tech commentators were flush with stories about the speed of new users on Threads. Unprecedented downloads! A sign that Meta is stronger than ever! Networks born in one service can transfer to another! This week? There’s a lot of speculation that Threads is crashing. </p>
                     <div class="d-flex gap-2">
-                        <p class="text-secondary">17 Jul</p>
-                        <p class="text-secondary">5 min read</p>
+                        <p class="text-secondary">10 Jun</p>
+                        <p class="text-secondary">10 min read</p>
                     </div>
                 </div>
                 <div class="col-4">
-                    <img src="post1.png" alt="" class="h-100 w-100" >
+                    <img src="post3.png" alt="" class="h-100 w-100" >
                 </div>
             </div>
 
             <div class="row shadow-sm my-5">
                 <div class="col-8">
-                    <p>Barack Obama</p>
-                    <h3>Thank You to America’s Librarians for Protecting Our Freedom to Read</h3>
-                    <p>I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.</p>
+                    <p>Microsoft Design</p>
+                    <h3>A change of typeface: Microsoft’s new default font has arrived</h3>
+                    <p>Introducing Aptos, our modern successor to Calibri</p>
                     <div class="d-flex gap-2">
-                        <p class="text-secondary">17 Jul</p>
-                        <p class="text-secondary">5 min read</p>
+                        <p class="text-secondary">5 Jun</p>
+                        <p class="text-secondary">9 min read</p>
                     </div>
                 </div>
                 <div class="col-4">
-                    <img src="post1.png" alt="" class="h-100 w-100" >
+                    <img src="post4.png" alt="" class="h-100 w-100" >
                 </div>
             </div>
         </div>
