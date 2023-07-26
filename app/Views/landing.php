@@ -10,10 +10,9 @@
 <style>
     .bar1:hover{
         background-color:#FFC107;
+        scale: 1.05;
+        transition-delay: .25s;
     }
-
-
-
 </style>
 
 <body>
@@ -30,16 +29,16 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Artikel</a>
+                <a class="nav-link" href="#trending">Trending</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Post Artikel</a>
+                    <a class="nav-link" href="#artikel">Artikel</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
             </ul>
             <a href="/register" >
@@ -49,13 +48,15 @@
         </div>
     </nav>
 
-    <div class="container-fluid w-auto bg-primary d-flex justify-content-between align-items-center p-5" style="height: 90vh">
+    <div class="container-fluid w-auto bg-primary d-flex justify-content-between align-items-center p-5" style="height: 90vh" id="home" >
         <div class="w-50" style="color:aliceblue;">
             <h1 style="font-size:60pt; color:aliceblue; font-family:arno pro;" class="fw-bold">KEEP CURIOUS..!</h1>
             <div class="container-fluid " style="width:600px; margin-left:-2px;">
             <h4 style="font-size:20pt; font-family:poppins;  " class="fw-light">Discover stories, thinking, and expertise from writers on any topic.</h4>
             </div>
-            <button  type="submit" class="btn btn-warning px-10 fw-bold" style="margin-top:20px; width:300px; height:50px; font-size:15pt; color:#187AF2;  ">Get Started</button>
+            <a href="/register">
+                <button  type="submit" class="btn btn-warning px-10 fw-bold" style="margin-top:20px; width:300px; height:50px; font-size:15pt; color:#187AF2;  ">Get Started</button>
+            </a>
         </div>
         <div class="w-50" style="color:aliceblue;">
             <img src="hp.png" style="width: 40vw;" />
@@ -63,7 +64,7 @@
     </div>
 
     
-    <div class=" ok1  row d-flex justify-content-center m-5 gap-2 " >
+    <div class=" ok1  row d-flex justify-content-center m-5 gap-2 " id="trending" >
         <div style="width:4 00px; height:50px;">
             <h2 style="font-size:20pt; text-align:center;">TRENDING ON DISCOVERZ</h2>
         </div>
@@ -124,7 +125,7 @@
         </div>
     </div>
 
-    <div class="contaier container-fluid row px-5">
+    <div class="contaier container-fluid row px-5" id="artikel">
         <div class="col-8">
             <div class="row shadow-sm my-5">
                 <div class="col-8">
@@ -206,11 +207,9 @@
     </div>
 </div>
 
-    <div class="bg-primary d-flex justify-content-center align-items-center " style="height:100px; width:auto; color:antiquewhite;">
-
-    <h4 >copyright &copy; 2023 DiscoverZ</h4>
-
-    </div>
 </body>
+<footer class="bg-primary d-flex justify-content-center align-items-center " style="height:100px; width:auto; color:antiquewhite;" id="about" >
+    <h4 >copyright &copy; 2023 DiscoverZ</h4>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>
