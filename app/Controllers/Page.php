@@ -20,7 +20,7 @@ class Page extends BaseController {
         'email' => $this->request->getPost('email'),
         'password' => $this->request->getPost('password'),
       ]);
-      return redirect('dashboard');
+      return redirect('/');
     };
 
     echo view("register");

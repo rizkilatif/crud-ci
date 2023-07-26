@@ -42,7 +42,9 @@
                     <a class="nav-link" href="#">About</a>
                 </li>
             </ul>
-            <button class="btn btn-primary" >Get started</button>
+            <a href="/register" >
+              <button class="btn btn-primary" >Get started</button>
+            </a>
             </div>
         </div>
     </nav>
@@ -67,27 +69,27 @@
         </div>
         <div class=" row gap-4">
             <div class="bar1 col card border-0 d-flex flex-row  shadow-sm">
-                <div class="col-3 bg-"  >
-                    <h1 style="font-size:60pt; color:#dededd; margin-left:5px;">01</h1>
+                <div class="col-2" >
+                    <h1 class="text-secondary" style="font-size: 3rem;" >01</h1>
                 </div>
-                <div class="col-9 bg-" >
+                <div class="col-10" >
                     <h1 style="font-size:12pt; margin-top:10px;">A change of typeface: Microsoft’s new default font has arrived</h1>
                     <p>Introducing Aptos, our modern successor to Calibri</p>
                 </div>
             </div>
             <div class="bar1 col card border-0 d-flex flex-row  shadow-sm">
-                <div class="col-3 bg-"  >
-                    <h1 style="font-size:60pt; color:#dededd; margin-left:5px;">02</h1>
+                <div class="col-2" >
+                    <h1 class="text-secondary" style="font-size: 3rem;" >02</h1>
                 </div>
-                <div class="col-9 bg-" >
+                <div class="col-10" >
                     <h1 style="font-size:12pt; margin-top:10px;">Thank You to America’s Librarians for Protecting Our Freedom to Read</h1>
                     <p>I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.</p>
                 </div>
             </div><div class="bar1 col card border-0 d-flex flex-row  shadow-sm">
-                <div class="col-3 bg-"  >
-                    <h1 style="font-size:60pt; color:#dededd; margin-left:5px;">03</h1>
+                <div class="col-2" >
+                    <h1 class="text-secondary" style="font-size: 3rem;" >03</h1>
                 </div>
-                <div class="col-9 bg-" >
+                <div class="col-10" >
                     <h1 style="font-size:12pt; margin-top:10px;">When you watch The Curse, you are watching two children who were abused and exploited daily during production.</h1>
                     <p>I had a wonderful time at Steel City Comicon this weekend. </p>
                 </div>
@@ -95,26 +97,26 @@
         </div>
         <div class="row gap-4">
         <div class="bar1 col card border-0 d-flex flex-row  shadow-sm">
-                <div class="col-3 bg-"  >
-                    <h1 style="font-size:60pt; color:#dededd; margin-left:5px;">04</h1>
+                <div class="col-2" >
+                    <h1 class="text-secondary" style="font-size: 3rem;" >04</h1>
                 </div>
-                <div class="col-9 bg-" >
+                <div class="col-10" >
                     <h1 style="font-size:12pt; margin-top:10px; ">Once Bitten</h1>
                     <p>A no-joke very bad centipede bite…</p>
                 </div>
             </div><div class="bar1 col card border-0 d-flex flex-row  shadow-sm">
-                <div class="col-3 bg-"  >
-                    <h1 style="font-size:60pt; color:#dededd; margin-left:5px;">05</h1>
+                <div class="col-2" >
+                    <h1 class="text-secondary" style="font-size: 3rem;" >05</h1>
                 </div>
-                <div class="col-9 bg-" >
+                <div class="col-10" >
                     <h1 style="font-size:12pt; margin-top:10px;">Google Bard’s New Visual Feature is a Game Changer</h1>
                     <p>Chatbots can officially see the world</p>
                 </div>
             </div><div class="bar1 col card border-0 d-flex flex-row  shadow-sm">
-                <div class="col-3 bg-"  >
-                    <h1 style="font-size:60pt; color:#dededd; margin-left:5px;">06</h1>
+                <div class="col-2" >
+                    <h1 class="text-secondary" style="font-size: 3rem;" >06</h1>
                 </div>
-                <div class="col-9 bg-" >
+                <div class="col-10" >
                     <h1 style="font-size:12pt; margin-top:10px;">Microsoft Just Showed us the Future of ChatGPT with LongNet</h1>
                     <p>Imagine a chatbot that could ingest the entire Internet at once.</p>
                 </div>
